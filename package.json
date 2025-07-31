@@ -2,22 +2,26 @@
   "name": "english-quiz-maker",
   "version": "1.0.0",
   "description": "英語の4択問題作成アプリ",
+  "homepage": "https://[your-username].github.io/[repository-name]",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "html2canvas": "^1.4.1",
     "jspdf": "^2.5.1",
-    "html2canvas": "^1.4.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
+    "gh-pages": "^6.3.0",
     "vite": "^4.4.5"
   }
-} 
+}

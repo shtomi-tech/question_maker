@@ -5,5 +5,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 5500
-  }
+  },
+  base: process.env.NODE_ENV === 'production' ? '/[repository-name]/' : '/'
 }) 
