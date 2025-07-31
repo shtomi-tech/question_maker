@@ -6,5 +6,5 @@ export default defineConfig({
   server: {
     port: 5500
   },
-  base: process.env.NODE_ENV === 'production' ? '/[repository-name]/' : '/'
+  base: process.env.NODE_ENV === 'production' ? '/question_maker/' : '/'
 }) 

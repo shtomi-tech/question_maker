@@ -2,7 +2,7 @@
   "name": "english-quiz-maker",
   "version": "1.0.0",
   "description": "英語の4択問題作成アプリ",
-  "homepage": "https://[your-username].github.io/[repository-name]",
+  "homepage": "https://shtomi-tech.github.io/question_maker",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
